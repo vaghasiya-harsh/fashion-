@@ -1,0 +1,1688 @@
+/* media query dislay max-width:1790px */
+@media only screen and (max-width: 1790px) {
+    .hero-text {
+        padding-left: 85px;
+        padding-top: 6px;
+    }
+
+    .hero-image img {
+        padding-top: 4px;
+    }
+
+    .hero-text h2 a {
+        line-height: 104px;
+    }
+
+    .logo-wrapper {
+        gap: 98px;
+    }
+
+    .category-item-img img {
+        max-width: 452px;
+    }
+
+    .categary-item-text img {
+        margin-right: 72px;
+    }
+
+    .product-item-img img {
+        max-width: 760px;
+    }
+
+    .product-item-text img {
+        margin-right: 88px;
+    }
+
+    .offer-text {
+        padding: 49px 94px 55px 87px;
+    }
+
+    .footer-right {
+        gap: 158px;
+    }
+
+    .fashion-voucher-left {
+        padding-right: 155px;
+    }
+}
+
+/* media query dislay max-width:1667px */
+@media only screen and (max-width: 1667px) {
+    .hero-text {
+        padding-right: 92px;
+        padding-bottom: 35px;
+
+    }
+
+    .logo-slider {
+        padding-inline: 10px;
+    }
+
+    .categary-item-text img {
+        margin-right: 76px;
+    }
+
+    .category-item-img img {
+        max-width: 428px;
+    }
+
+    .offer-text {
+        padding: 50px 57px 43px 51px;
+    }
+
+    .offer-head h2 {
+        padding-bottom: 14px;
+    }
+
+    .offer-head p {
+        padding-bottom: 16px;
+    }
+
+    .offer-center {
+        padding-bottom: 16px;
+    }
+
+    .product-item-img img {
+        max-width: 718px;
+    }
+
+    .fashion-voucher-left {
+        padding-right: 106px;
+    }
+
+    .footer-right {
+        gap: 126px;
+    }
+}
+
+/* media query dislay max-width:1568px */
+@media only screen and (max-width: 1568px) {
+    .hero-section {
+        padding: 48px 0 56px;
+    }
+
+    .head-button {
+        padding: 10px 20px 14px;
+        font-size: 22px;
+    }
+
+    .hero-text {
+        padding-inline: 61px;
+        padding-bottom: 6px;
+    }
+
+    .hero-text h2 a {
+        font-weight: 800;
+        font-size: 88px;
+        line-height: 112px;
+        padding-bottom: 22px;
+    }
+
+    .hero-text p {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        padding-bottom: 16px;
+    }
+
+    .hero-button {
+        padding: 15px 32px;
+    }
+
+
+    .logo-wrapper {
+        gap: 76px;
+    }
+
+    .category-section {
+        padding: 62px 0 142px;
+    }
+
+    .category-wrapper {
+        padding-top: 90px;
+    }
+
+    .category-head h2 {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .category-item-img img {
+        max-width: 402px;
+    }
+
+    .categary-item-text img {
+        margin-right: 62px;
+    }
+
+    .offer-text {
+        padding: 24px 40px 26px 65px;
+    }
+
+    .offer-head h2 {
+        font-weight: 800;
+        font-size: 102px;
+        line-height: 122px;
+    }
+
+    .offer-head p {
+        font-size: 34px;
+        line-height: 46px;
+        letter-spacing: -0.01em;
+    }
+
+    .offer-center h3 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .offer-center p {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .offer-button {
+        font-size: 26px;
+        padding: 14px 32px 22px;
+    }
+
+    .product-section {
+        padding-top: 136px;
+    }
+
+    .product-wrapper {
+        padding-top: 84px;
+    }
+
+    .product-item-img img {
+        max-width: 700px;
+    }
+
+    .product-item-text img {
+        margin-right: 36px;
+    }
+
+    .product-head h2 {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .fashion-voucher {
+        padding: 102px 0;
+    }
+
+    .fashion-voucher-left {
+        padding-right: 52px;
+    }
+
+    .fashion-voucher-text h2 {
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 130%;
+        padding-bottom: 16px;
+    }
+
+    .community-promo {
+        padding: 130px 0;
+    }
+
+    .community-text h2 {
+        font-weight: 800;
+        font-size: 53px;
+        padding-bottom: 22px;
+    }
+
+    .community-text p {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 26px;
+    }
+
+    .community-form {
+        padding: 8px;
+    }
+
+    .community-search .com-button {
+        font-size: 28px;
+        padding: 12px 28px;
+    }
+
+    .fashion-foot {
+        padding: 96px 0 114px;
+    }
+
+    .footer-right {
+        padding-left: 114px;
+    }
+
+    .fashion-foot {
+        padding: 88px 0 118px;
+    }
+
+}
+
+/* media query dislay max-width:1460px */
+@media only screen and (max-width: 1460px) {
+    .header-main {
+        padding-top: 30px;
+    }
+
+    .head-button {
+        padding: 8px 16px 10px;
+    }
+
+    .hero-text h2 a {
+        font-size: 84px;
+        line-height: 104px;
+        padding-bottom: 20px;
+    }
+
+    .hero-text p {
+        font-size: 26px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+
+    .hero-button {
+        padding: 12px 16px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+        letter-spacing: -0.02em;
+    }
+
+    .logo-wrapper {
+        gap: 58px;
+    }
+
+    .logo-slider {
+        padding-block: 46px 35px;
+    }
+
+    .category-section {
+        padding: 52px 0 98px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 28px;
+        line-height: 46px;
+        letter-spacing: -0.02em;
+    }
+
+    .category-item-img img {
+        max-width: 364px;
+    }
+
+    .categary-item-text img {
+        margin-right: 60px;
+    }
+
+    .offer-text {
+        padding-right: 66px;
+    }
+
+    .offer-head h2 {
+        font-weight: 700;
+        font-size: 95px;
+        line-height: 102px;
+    }
+
+    .offer-head p {
+        font-size: 30px;
+    }
+
+    .offer-button {
+        font-size: 24px;
+        padding: 12px 26px 16px;
+        font-weight: 500;
+    }
+
+    .product-section {
+        padding-top: 90px;
+    }
+
+    .product-wrapper {
+        padding-top: 68px;
+    }
+
+    .product-item-text h3 {
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        padding-top: 18px;
+    }
+
+    .product-item-img img {
+        max-width: 635px;
+    }
+
+    .product-item-text img {
+        margin-right: 50px;
+    }
+
+    .fashion-voucher {
+        padding: 78px 0;
+    }
+
+    .community-promo {
+        padding: 96px 0;
+    }
+
+    .fashion-foot {
+        padding: 64px 0 86px;
+    }
+
+    .footer-right {
+        gap: 94px;
+    }
+
+    .footer-left p {
+        font-size: 22px;
+        line-height: 36px;
+        max-width: 400px;
+    }
+
+}
+
+/* media query display max-width:1367px */
+@media only screen and (max-width: 1367px) {
+    .header-main {
+        padding-top: 15px;
+    }
+
+    .head-logo h2 {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .hero-section {
+        padding: 42px 0 50px;
+    }
+
+    .hero-text {
+        padding-left: 52px;
+    }
+
+    .hero-text p {
+        font-size: 24px;
+        line-height: 22px;
+        padding-bottom: 8px;
+    }
+
+    .hero-text h2 a {
+        font-size: 82px;
+        line-height: 100px;
+        padding-bottom: 16px;
+    }
+
+    .hero-button {
+        padding: 10px 14px;
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+
+    .logo-wrapper {
+        gap: 70px;
+    }
+
+    .logo-slider {
+        padding-block: 38px 26px;
+    }
+
+    .logo-item img {
+        max-width: 145px;
+    }
+
+    .category-wrapper {
+        padding-top: 72px;
+    }
+
+    .category-item-img img {
+        max-width: 338px;
+    }
+
+    .categary-item-text img {
+        margin-right: 64px;
+    }
+
+    .category-section {
+        padding: 50px 0 78px;
+    }
+
+    .offer-head h2 {
+        line-height: 92px;
+        padding-bottom: 8px;
+    }
+
+    .offer-head p {
+        font-size: 28px;
+    }
+
+    .product-section {
+        padding-top: 80px;
+    }
+
+    .product-wrapper {
+        padding-top: 48px;
+    }
+
+    .product-item-img img {
+        max-width: 598px;
+    }
+
+    .product-item-text img {
+        margin-right: 44px;
+    }
+
+    .fashion-voucher {
+        padding: 38px 0;
+    }
+
+    .fashion-voucher-left {
+        padding-left: 90px;
+    }
+
+    .fashion-voucher-text h2 {
+        font-size: 40px;
+        line-height: 122%;
+        padding-bottom: 12px;
+    }
+
+    .fashion-voucher-text p {
+        padding-bottom: 30px;
+    }
+
+    .community-promo {
+        padding: 68px 0;
+    }
+
+    .community-text h2 {
+        font-size: 50px;
+        line-height: 62px;
+        padding-bottom: 16px;
+    }
+
+    .community-text p {
+        padding-bottom: 22px;
+    }
+
+    .community-search input[type=text] {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .community-search .com-button {
+        font-size: 26px;
+        padding: 10px 24px;
+    }
+
+    .fashion-foot {
+        padding: 56px 0 76px;
+    }
+
+    .footer-right {
+        padding-left: 62px;
+    }
+
+}
+
+/* media query display max-width:1290 */
+@media only screen and (max-width: 1290px) {
+    .hero-text {
+        padding-right: 40px;
+    }
+
+    .hero-text h2 a {
+        font-size: 78px;
+        line-height: 90px;
+        padding-bottom: 13px;
+    }
+
+    .hero-image img {
+        margin-left: -24px;
+    }
+
+    .logo-item img {
+        max-width: 126px;
+    }
+
+    .category-item-img img {
+        max-width: 326px;
+    }
+
+    .categary-item-text {
+        padding-top: 16px;
+    }
+
+    .categary-item-text img {
+        margin-right: 40px;
+        margin-top: -88px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .categary-item-text p {
+        line-height: 42px;
+    }
+
+    .offer-text {
+        padding: 20px 50px 23px 40px;
+    }
+
+    .product-item-img img {
+        max-width: 582px;
+    }
+
+    .product-item-text p {
+        padding-top: 2px;
+        line-height: 40px;
+    }
+
+    .product-item-text img {
+        margin-right: 24px;
+        margin-top: -96px;
+    }
+
+    .fashion-voucher-left {
+        padding-left: 68px;
+    }
+
+    .footer-right {
+        gap: 86px;
+    }
+
+    .footbox ul li a {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+/* media query display max-width: 1199px */
+@media only screen and (max-width: 1199px) {
+    .header-main {
+        padding-top: 4px;
+    }
+
+    .head-logo h2 {
+        font-size: 36px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 20px;
+    }
+
+    .nav-item {
+        margin-right: 26px;
+    }
+
+    .head-button {
+        padding: 6px 14px 8px;
+        font-size: 20px;
+    }
+
+    .hero-section {
+        padding: 36px 0 42px;
+    }
+
+    .hero-text {
+        padding: 35px 15px 22px 52px;
+    }
+
+    .hero-text h2 a {
+        font-size: 42px;
+        line-height: 54px;
+        padding-bottom: 16px;
+        font-weight: 900;
+        max-width: 388px;
+    }
+
+    .hero-image img {
+        margin-left: -8px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+    }
+
+    .logo-item img {
+        max-width: 116px;
+    }
+
+    .logo-wrapper {
+        gap: 38px;
+        justify-content: center;
+    }
+
+    .logo-slider {
+        padding-block: 24px 18px;
+    }
+
+    .category-section {
+        padding: 44px 0 64px;
+    }
+
+    .category-head h2 {
+        font-size: 42px;
+        line-height: 38px;
+    }
+
+    .category-wrapper {
+        padding-top: 54px;
+    }
+
+    .category-item-img img {
+        max-width: 298px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .categary-item-text p {
+        font-size: 22px;
+    }
+
+    .categary-item-text img {
+        max-width: 22px;
+        margin-top: -80px;
+        margin-right: 36px;
+    }
+
+    .offer-head h2 {
+        font-weight: 700;
+        font-size: 76px;
+        line-height: 74px;
+    }
+
+    .offer-head p {
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0;
+        max-width: 408px;
+    }
+
+    .offer-center h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .offer-center p {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .offer-center {
+        padding-bottom: 12px;
+    }
+
+    .product-section {
+        padding-top: 68px;
+    }
+
+    .product-head h2 {
+        font-size: 42px;
+        line-height: 38px;
+    }
+
+    .product-wrapper {
+        padding-top: 42px;
+    }
+
+    .product-item-img img {
+        max-width: 540px;
+    }
+
+    .product-item-text h3 {
+        font-size: 28px;
+        line-height: 36px;
+        padding-top: 16px;
+    }
+
+    .product-item-text p {
+        font-size: 22px;
+    }
+
+    .product-item-text img {
+        margin-right: 22px;
+        margin-top: -88px;
+    }
+
+    .fashion-voucher {
+        padding: 18px 0;
+    }
+
+    .fashion-voucher-text h2 {
+        font-size: 30px;
+        line-height: 112%;
+        max-width: 374px;
+    }
+
+    .fashion-voucher-left {
+        padding-left: 28px;
+    }
+
+    .fashion-voucher-text p {
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 24px;
+    }
+
+    .community-promo {
+        padding: 46px 0;
+    }
+
+    .community-text h2 {
+        font-size: 38px;
+        line-height: 46px;
+        padding-bottom: 5px;
+        max-width: 935px;
+    }
+
+    .community-text p {
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 18px;
+    }
+
+    .community-search input[type=text] {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .community-form {
+        padding: 5px;
+    }
+
+    .community-search .com-button {
+        font-size: 20px;
+        padding: 6px 16px;
+    }
+
+    .community-search {
+        margin-left: 180px;
+    }
+
+    .footer-left h3 {
+        padding-bottom: 12px;
+    }
+
+    .footer-left p {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 295px;
+    }
+
+    .footer-right {
+        gap: 60px;
+        padding-left: 50px;
+    }
+
+    .footbox ul li a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/* media query display max-width:991px */
+@media only screen and (max-width: 991px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .head-center {
+        display: block;
+    }
+
+    .hero-section {
+        padding: 5px 0 0;
+    }
+
+    .hero-text {
+        padding: 54px 2px 22px 38px;
+    }
+
+    .hero-text h2 a {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 0px;
+        font-weight: 800;
+        max-width: 305px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 2px;
+    }
+
+    .hero-button {
+        padding: 6px 10px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .logo-wrapper {
+        gap: 34px;
+    }
+
+    .logo-slider {
+        padding-block: 18px 12px;
+        padding-inline: 8px;
+    }
+
+    .logo-item img {
+        max-width: 90px;
+    }
+
+    .hero-bg {
+        margin: 0;
+    }
+
+    .category-section {
+        padding: 38px 0 46px;
+    }
+
+    .category-section .container {
+        padding: 0 15px;
+    }
+
+    .category-wrapper {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .category-head h2 {
+        font-size: 38px;
+        line-height: 32px;
+    }
+
+    .categary-item-text img {
+        max-width: 20px;
+        margin-top: -44px;
+        margin-right: 36px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 20px;
+    }
+
+    .categary-item-text p {
+        line-height: 42px;
+    }
+
+    .offer-wrapper {
+        margin: 0;
+    }
+
+    .offer-text {
+        padding: 36px 24px 6px 2px;
+    }
+
+    .offer-head h2 {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 34px;
+    }
+
+    .offer-head p {
+        font-size: 19px;
+        line-height: 28px;
+        padding-bottom: 11px;
+    }
+
+    .offer-center p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .offer-button {
+        font-size: 20px;
+        padding: 6px 14px 8px;
+        font-weight: 400;
+    }
+
+    .offer-image img {
+        margin-left: -10px;
+    }
+
+    .product-head h2 {
+        font-size: 38px;
+        line-height: 32px;
+    }
+
+    .product-section {
+        padding-top: 40px;
+    }
+
+    .product-wrapper {
+        padding-top: 34px;
+    }
+
+    .product-item-text h3 {
+        font-size: 26px;
+        line-height: 34px;
+        padding-top: 10px;
+    }
+
+    .product-item-text p {
+        font-size: 20px;
+        padding-top: 0px;
+        line-height: 36px;
+    }
+
+    .product-item-text img {
+        margin-right: 26px;
+        margin-top: -48px;
+        max-width: 25px;
+    }
+
+    .fashion-voucher {
+        padding: 8px 0;
+    }
+
+    .fashion-wrapper {
+        margin: 0;
+    }
+
+    .fashion-voucher-left {
+        padding: 60px 10px 80px 28px;
+    }
+
+    .fashion-voucher-text h2 {
+        font-size: 24px;
+        line-height: 114%;
+        max-width: 268px;
+        padding-bottom: 2px;
+    }
+
+    .fashion-voucher-text p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 10px;
+        max-width: 318px;
+    }
+
+    .fashion-voucher-left-img img {
+        max-width: 128px
+    }
+
+    .community-promo {
+        padding: 32px 0;
+    }
+
+    .community-text h2 {
+        font-size: 32px;
+        line-height: 34px;
+        padding-bottom: 2px;
+        max-width: 740px;
+    }
+
+    .community-text p {
+        font-size: 22px;
+        line-height: 22px;
+        padding-bottom: 12px;
+    }
+
+    .community-search .com-button {
+        font-size: 18px;
+        padding: 5px 12px;
+        line-height: 24px;
+    }
+
+    .community-search input[type=text] {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .community-search {
+        justify-self: end;
+    }
+
+    .fashion-foot {
+        padding: 26px 0 30px;
+    }
+
+    .footer-left h3 {
+        padding-bottom: 2px;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    .footer-left p {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 230px;
+        padding-bottom: 2px;
+    }
+
+    .foot-img img {
+        padding-block: 10px;
+    }
+
+    h5.foot-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 16px;
+    }
+
+    .footbox ul li a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .footer-right {
+        gap: 40px;
+        padding-left: 22px;
+    }
+
+    .footbox ul li {
+        padding-bottom: 20px;
+    }
+}
+
+/* media query display max-width:767px */
+
+@media only screen and (max-width:767px) {
+
+    .head-logo img {
+        width: 26px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+    }
+
+    .head-logo h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .hero-text h2 a {
+        font-size: 26px;
+        line-height: 34px;
+        padding-bottom: 3px;
+        max-width: 235px;
+    }
+
+    .hero-text p {
+        max-width: 190px;
+        margin-bottom: 8px;
+    }
+
+    .hero-text {
+        padding: 29px 0px 10px 22px;
+        max-width: 272px;
+    }
+
+    .hero-image img {
+        margin-left: 24px;
+        max-width: 226px;
+
+    }
+
+    .hero-button {
+        padding: 4px 8px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .logo-slider {
+        padding-block: 14px 8px;
+        padding-inline: 0px;
+    }
+
+    .logo-wrapper {
+        gap: 21px;
+    }
+
+    .logo-item img {
+        max-width: 72px;
+    }
+
+    .category-section {
+        padding: 30px 0 35px;
+    }
+
+    .category-head h2 {
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    .category-head h2::after {
+        margin-top: 5px;
+        margin-left: -134px;
+    }
+
+    .category-wrapper {
+        padding-top: 34px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+    }
+
+    .categary-item-text p {
+        line-height: 30px;
+        font-size: 16px;
+        letter-spacing: -0.01em;
+    }
+
+    .categary-item-text img {
+        max-width: 18px;
+        margin-top: -38px;
+        margin-right: 10px;
+    }
+
+    .category-item {
+        width: 32%;
+    }
+
+    .offer-image img {
+        max-width: 267px;
+    }
+
+    .offer-text {
+        max-width: 260px;
+        padding: 22px 4px 6px 2px;
+    }
+
+    .offer-head h2 {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 22px;
+
+    }
+
+    .offer-head p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 14px;
+    }
+
+    .offer-center h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .offer-center p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .offer-button {
+        font-size: 16px;
+        padding: 4px 8px 6px;
+        line-height: 25px;
+    }
+
+    .product-section {
+        padding-top: 34px;
+    }
+
+    .product-head h2 {
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    .product-head h2::after {
+        margin-top: 10px;
+        margin-left: -146px;
+    }
+
+    .product-wrapper {
+        padding-top: 30px;
+    }
+
+    .product-item-text h3 {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 6px;
+    }
+
+    .product-item-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .product-item-text img {
+        margin-right: 32px;
+        margin-top: -38px;
+        max-width: 22px;
+    }
+
+    .product-item-img img {
+        max-width: 342px;
+    }
+
+    .product-item {
+        width: 50%;
+    }
+
+    .fashion-voucher-left {
+        padding: 34px 10px 24px 12px;
+    }
+
+    .fashion-voucher-text h2 {
+        font-size: 20px;
+        line-height: 102%;
+        max-width: 218px;
+        padding-bottom: 4px;
+    }
+
+    .fashion-voucher-text p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 8px;
+        max-width: 255px;
+        letter-spacing: -0.01em;
+    }
+
+    .fashion-voucher-left-img img {
+        max-width: 102px;
+        padding-right: 8px;
+    }
+
+    .fashion-voucher-img img {
+        max-width: 214px;
+    }
+
+    .community-promo {
+        padding: 24px 0;
+    }
+
+    .community-text h2 {
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 2px;
+        max-width: 539px;
+    }
+
+    .community-text p {
+        font-size: 16px;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+
+    .community-search input[type=text] {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .community-search {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .community-search .com-button {
+        font-size: 16px;
+        padding: 4px 10px;
+        line-height: 20px;
+    }
+
+    .fashion-foot {
+        padding: 22px 0 24px;
+    }
+
+    .footer-right {
+        gap: 54px;
+        padding-left: 40px;
+    }
+
+    .footer-left h3 {
+        padding-bottom: 4px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .footer-left p {
+        line-height: 20px;
+        max-width: 428px;
+        padding-bottom: 6px;
+    }
+
+    .foot-img {
+        border-radius: 14px;
+        margin-right: 20px;
+    }
+
+    h5.foot-title {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 12px;
+        padding-top: 26px;
+    }
+
+    .footbox ul li {
+        padding-bottom: 18px;
+    }
+
+}
+
+/* media query display max-width:568px */
+
+@media only screen and (max-width: 568px) {
+    .head-logo img {
+        width: 22px;
+        margin-right: 5px;
+    }
+
+    .head-logo h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .head-button {
+        padding: 4px 10px 7px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+    }
+
+
+    .hero-bg {
+        border-radius: 42px;
+        justify-content:center
+    }
+
+    .hero-text {
+        padding: 10px 2px 5px 10px;
+        max-width: 140px;
+    }
+
+    .hero-text h2 a {
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 0px;
+        max-width: 148px;
+        margin-bottom: 4px;
+    }
+
+    .hero-text p {
+        max-width: 128px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 4px;
+    }
+
+    .hero-button {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0px;
+        margin-left: 0;
+    }
+
+    .hero-image img {
+        margin-left: 0;
+        max-width: 116px;
+    }
+
+    .logo-item img {
+        max-width: 42px;
+    }
+
+    .logo-wrapper {
+        gap: 8px;
+    }
+
+    .logo-slider {
+        padding-block: 8px 6px;
+    }
+
+    .category-section {
+        padding: 25px 0 30px;
+    }
+
+    .category-item {
+        justify-items: center;
+    }
+
+    .category-head h2 {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 550;
+        letter-spacing: 0.04em;
+    }
+
+    .category-head h2::after {
+        margin-top: 0px;
+        margin-left: -118px;
+        transform: scale(0.4);
+    }
+
+    .category-wrapper {
+        padding-top: 22px;
+    }
+
+    .categary-item-text {
+        padding-top: 6px;
+    }
+
+    .categary-item-text h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .category-item-img img {
+        max-width: 244px;
+    }
+
+    .categary-item-text p {
+        line-height: 26px;
+        font-size: 14px;
+        letter-spacing: -0.04em;
+    }
+
+    .categary-item-text img {
+        max-width: 14px;
+        float: none;
+    }
+
+    .offer-text {
+        max-width: 315px;
+        padding: 2px 2px 4px 2px;
+    }
+
+    .offer-image {
+        padding: 0;
+    }
+
+    .offer-image img {
+        max-width: 140px;
+        margin-left: 0;
+    }
+
+    .offer-head h2 {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 2px;
+        max-width: 164px;
+        margin-bottom: 0;
+    }
+
+    .offer-head p {
+        font-size: 11px;
+        max-width: 200px;
+        padding-bottom: 6px;
+        line-height: 14px;
+    }
+
+    .offer-center {
+        padding-bottom: 6px;
+    }
+
+    .offer-center h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .offer-button {
+        line-height: 18px;
+    }
+
+    .offer-center p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 6px;
+    }
+
+    .product-head h2 {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 550;
+        letter-spacing: 0.04em;
+    }
+
+    .product-item {
+        justify-items: center;
+    }
+
+    .product-head h2::after {
+        margin-top: 2px;
+        margin-left: -120px;
+        transform: scale(0.4);
+    }
+
+    .product-item-text h3 {
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 6px;
+
+    }
+
+    .product-item-text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .product-item-text img {
+        max-width: 14px;
+        float: none;
+    }
+
+
+    .fashion-voucher-text h2 {
+        font-size: 15px;
+        line-height: 112%;
+        max-width: 170px;
+        padding-bottom: 2px;
+    }
+
+    .fashion-voucher-text p {
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 0;
+        max-width: 165px;
+    }
+
+    .fashion-voucher-left {
+        padding: 0 2px 8px 2px
+    }
+
+    .fashion-voucher-left-img img {
+        max-width: 68px;
+        padding-right: 5px;
+    }
+
+    .fashion-voucher-img img {
+        max-width: 92px;
+    }
+
+    .community-text h2 {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 3px;
+
+    }
+
+    .community-text p {
+        font-size: 12px;
+        line-height: 13px;
+        padding-bottom: 6px;
+        margin-bottom: 8px;
+        max-width: 465px;
+    }
+
+    .community-search input[type=text] {
+        font-size: 10px;
+        line-height: 14px;
+        max-width: 110px;
+    }
+
+    .community-search .com-button {
+        font-size: 12px;
+        padding: 3px 8px;
+        line-height: 16px;
+    }
+
+    .community-search {
+        padding: 0;
+    }
+
+    .community-form {
+        padding: 3px;
+    }
+
+    .footer-right {
+        gap: 14px;
+        padding-left: 6px;
+    }
+
+    h5.foot-title {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 6px;
+        padding-top: 16px;
+    }
+
+    .footbox ul li a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .footbox ul li {
+        padding-bottom: 8px;
+    }
+
+    .footer-left h3 {
+        padding-bottom: 2px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .footer-left p {
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 222px;
+        padding-bottom: 4px;
+    }
+
+    .foot-img {
+        align-content: center;
+    }
+
+    .foot-img img {
+        padding-block: 6px;
+        max-width: 20px;
+        margin-inline: 4px;
+    }
+}
