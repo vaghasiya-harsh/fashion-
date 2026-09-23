@@ -1,14 +1,12 @@
-# Hey there! 👋 I'm Harsh Vaghasiya
 
-Welcome to my GitHub profile! I'm a passionate developer crafting elegant solutions through code.
 
 ## 🚀 What I Do
 
-I'm dedicated to building meaningful projects and continuously learning new technologies. My focus is on writing clean, maintainable code and creating exceptional user experiences.
+A modern and responsive fashion website built using HTML, CSS, Bootstrap, and JavaScript, featuring a clean layout, attractive design, responsive sections, and user-friendly navigation.
 
 ## 💻 Technical Skills
 
-- **Languages**: JavaScript, HTML, CSS, and more
+- **Languages**: JavaScript, HTML, CSS,
 - **Frontend Development**: Responsive design, modern web technologies
 - **Version Control**: Git & GitHub
 - **Problem Solving**: Algorithms, data structures, debugging
@@ -44,8 +42,4 @@ A web development project showcasing frontend skills with **73.2% CSS** and **26
 
 I'm always open to collaboration, questions, and discussing interesting projects!
 
----
 
-**⭐ If you find my projects helpful, consider starring them!**
-
-*Last updated: June 2026*
