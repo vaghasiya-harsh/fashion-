@@ -11,12 +11,6 @@ A modern and responsive fashion website built using HTML, CSS, Bootstrap, and Ja
 - **Version Control**: Git & GitHub
 - **Problem Solving**: Algorithms, data structures, debugging
 
-## 📊 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaghasiya-harsh&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaghasiya-harsh&layout=compact&theme=radical)
-
 ## 🎯 Featured Projects
 
 ### [fashion-](https://github.com/vaghasiya-harsh/fashion-)
