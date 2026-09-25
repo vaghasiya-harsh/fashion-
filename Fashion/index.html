@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head start -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHION - Explore Unique & Influential Clothes</title>
+  <meta name="description" content="Discover premium, innovative, and influential streetwear and contemporary fashion. Explore hoodies, coats, tees, and exclusive payday sales.">
+  <meta name="theme-color" content="#EBD96B">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Project Stylesheets: Base -> Components & Theme -> Master Responsive Layout -->
+  <link rel="stylesheet" href="assets/css/style.css?v=3.5">
+  <link rel="stylesheet" href="assets/css/animations.css?v=3.5">
+  <link rel="stylesheet" href="assets/css/meadia.css?v=3.5">
+
+  <style>
+    /* Strict Viewport Rule: Navbar Toggler is 100% REMOVED on Desktop (>= 992px) */
+    @media (min-width: 992px) {
+      .navbar-toggler,
+      button.navbar-toggler,
+      .head-right .navbar-toggler,
+      .header-main .navbar-toggler {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+      }
+    }
+
+    /* Only show on Tablet and Mobile (<= 991px) */
+    @media (max-width: 991px) {
+      .navbar-toggler,
+      button.navbar-toggler,
+      .head-right .navbar-toggler {
+        display: inline-flex !important;
+      }
+    }
+  </style>
+</head>
+<!-- head end -->
+
+<body>
+  <!-- Aurelia-Style Custom Luxury Cursor (Desktop) -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline">
+    <span class="cursor-text"></span>
+  </div>
+
+  <!-- header start -->
+  <header class="header-main">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg align-items-center justify-content-between flex-nowrap">
+        <!-- Brand Logo -->
+        <a class="navbar-brand d-flex align-items-center head-logo" href="#" title="FASHION">
+          <img src="assets/img/favicon.png" alt="fashion">
+          <h2>FASHION</h2>
+        </a>
+
+        <!-- Center Nav Links Collapse -->
+        <div class="collapse navbar-collapse head-center justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#CATALOGUE">CATALOGUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#FASHION">FASHION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#FAVOURITE">FAVOURITE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#LIFESTYLE">LIFESTYLE</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Header Items: ALWAYS In ONE Single Horizontal Line on Tablet & Desktop -->
+        <div class="head-right d-flex align-items-center flex-nowrap">
+          <a href="#sign" class="btn head-button">SIGN UP</a>
+
+          <!-- Dynamic Header Actions -->
+          <div class="header-actions d-flex align-items-center flex-nowrap">
+            <!-- Dark / Light Theme Toggle -->
+            <button class="header-icon-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <!-- Wishlist Icon with Counter -->
+            <button class="header-icon-btn" id="navWishlistBtn" aria-label="View Wishlist" title="Your Wishlist">
+              <i class="fa-regular fa-heart"></i>
+              <span class="nav-badge" id="navWishlistBadge">0</span>
+            </button>
+
+            <!-- Shopping Bag with Counter -->
+            <button class="header-icon-btn" id="navCartBtn" aria-label="Open Shopping Bag" title="Shopping Bag">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span class="nav-badge" id="navCartBadge">0</span>
+            </button>
+          </div>
+
+          <!-- Mobile / Tablet Hamburger Toggler -->
+          <button class="navbar-toggler ms-2 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- hero-section start -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row hero-bg d-flex align-items-center">
+        <div class="col-lg-6 col-12 hero-text" data-reveal="left">
+          <div class="hero-pill-badge">
+            <i class="fa-solid fa-bolt"></i> NEW AUTUMN / WINTER 2026
+          </div>
+          <h2>
+            <a href="#CATALOGUE">LET'S EXPLORE UNIQUE CLOTHES.</a>
+          </h2>
+          <p>
+            Live for Influential and Innovative fashion! Premium cuts engineered for everyday distinction.
+          </p>
+          <div class="hero-cta-group d-flex align-items-center flex-wrap gap-3">
+            <a href="#CATALOGUE" class="btn hero-button">Shop Now</a>
+            <button class="btn hero-btn-bag" id="heroViewBagBtn" onclick="document.getElementById('navCartBtn').click();">
+              <i class="fa-solid fa-bag-shopping"></i> <span>View Bag</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 hero-image" data-reveal="right">
+          <a href="#CATALOGUE">
+            <img src="assets/img/hero-image.png" alt="hero-image">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero-section end -->
+
+  <!-- slider brands start (Infinite Marquee Ticker) -->
+  <section class="slider" data-reveal>
+    <div class="container">
+      <div class="logo-slider">
+        <div class="logo-wrapper d-flex align-items-center flex-wrap">
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www2.hm.com/en_in/index.html">
+              <img src="assets/img/logo-item-1.png" alt="H&M">
+            </a>
+          </div>
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://obeyclothing.com/">
+              <img src="assets/img/logo-item-2.png" alt="Obey Clothing">
+            </a>
+          </div>
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.shopify.com/in">
+              <img src="assets/img/logo-item-3.png" alt="Shopify">
+            </a>
+          </div>
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.lacoste.in/">
+              <img src="assets/img/logo-item-4.png" alt="Lacoste">
+            </a>
+          </div>
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://levi.in/">
+              <img src="assets/img/logo-item-5.png" alt="Levi's">
+            </a>
+          </div>
+          <div class="logo-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.in/">
+              <img src="assets/img/logo-item-6.png" alt="Amazon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- slider brands end -->
+
+  <!-- category section start -->
+  <section class="category-section" id="CATALOGUE">
+    <div class="container">
+      <div class="category-head" data-reveal>
+        <h2>NEW ARRIVALS</h2>
+      </div>
+      <div class="row category-wrapper g-4">
+        <!-- Item 1: Hoodies & Sweatshirt -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="category-card category-item" data-reveal="zoom">
+            <div class="card-floating-actions">
+              <button class="card-action-btn" data-wishlist="hoodies" title="Save to Wishlist" aria-label="Save to Wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+            <div class="category-item-img">
+              <a href="javascript:void(0);" data-quick-view="hoodies">
+                <img src="assets/img/category-item-1.png" alt="Hoodies & Sweatshirt">
+              </a>
+              <div class="card-quick-view-overlay">
+                <button class="btn-card-quickview" data-quick-view="hoodies">
+                  <i class="fa-regular fa-eye"></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="categary-item-text">
+              <a href="javascript:void(0);" data-quick-view="hoodies">
+                <h3>Hoodies & Sweatshirt</h3>
+                <p>Explore Now! • <strong>$49.99</strong></p>
+              </a>
+              <a href="javascript:void(0);" class="category-arrow-link" data-quick-view="hoodies" title="Explore Hoodies">
+                <img src="assets/img/category-Arrow 1.svg" alt="Explore">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Coats & Parkas -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="category-card category-item" data-reveal="zoom" style="transition-delay: 0.15s;">
+            <div class="card-floating-actions">
+              <button class="card-action-btn" data-wishlist="coats" title="Save to Wishlist" aria-label="Save to Wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+            <div class="category-item-img">
+              <a href="javascript:void(0);" data-quick-view="coats">
+                <img src="assets/img/category-item-2.png" alt="Coats & Parkas">
+              </a>
+              <div class="card-quick-view-overlay">
+                <button class="btn-card-quickview" data-quick-view="coats">
+                  <i class="fa-regular fa-eye"></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="categary-item-text">
+              <a href="javascript:void(0);" data-quick-view="coats">
+                <h3>Coats & Parkas</h3>
+                <p>Explore Now! • <strong>$89.99</strong></p>
+              </a>
+              <a href="javascript:void(0);" class="category-arrow-link" data-quick-view="coats" title="Explore Coats">
+                <img src="assets/img/category-Arrow 1.svg" alt="Explore">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Tees & T-Shirt -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="category-card category-item" data-reveal="zoom" style="transition-delay: 0.3s;">
+            <div class="card-floating-actions">
+              <button class="card-action-btn" data-wishlist="tees" title="Save to Wishlist" aria-label="Save to Wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+            <div class="category-item-img">
+              <a href="javascript:void(0);" data-quick-view="tees">
+                <img src="assets/img/category-item-3.png" alt="Tees & T-Shirt">
+              </a>
+              <div class="card-quick-view-overlay">
+                <button class="btn-card-quickview" data-quick-view="tees">
+                  <i class="fa-regular fa-eye"></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="categary-item-text">
+              <a href="javascript:void(0);" data-quick-view="tees">
+                <h3>Tees & T-Shirt</h3>
+                <p>Explore Now! • <strong>$29.99</strong></p>
+              </a>
+              <a href="javascript:void(0);" class="category-arrow-link" data-quick-view="tees" title="Explore Tees">
+                <img src="assets/img/category-Arrow 1.svg" alt="Explore">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- category section end -->
+
+  <!-- offer section start -->
+  <section class="offer-section" id="FASHION">
+    <div class="container">
+      <div class="row offer-wrapper m-lg-0 align-items-center">
+        <div class="col-lg-6 col-12 offer-image" data-reveal="left">
+          <a href="#CATALOGUE">
+            <img src="assets/img/offer.png" alt="payday-sale-offer">
+          </a>
+        </div>
+        <div class="col-lg-6 col-12 offer-text" data-reveal="right">
+          <div class="offer-head">
+            <a href="#CATALOGUE">
+              <h2>PAYDAY SALE NOW</h2>
+            </a>
+            <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
+          </div>
+
+          <!-- Live Dynamic Countdown Timer -->
+          <div class="payday-timer-wrapper">
+            <div class="payday-timer">
+              <div class="timer-box">
+                <span class="timer-val" id="timerDays">07</span>
+                <span class="timer-label">DAYS</span>
+              </div>
+              <span class="timer-colon">:</span>
+              <div class="timer-box">
+                <span class="timer-val" id="timerHours">18</span>
+                <span class="timer-label">HOURS</span>
+              </div>
+              <span class="timer-colon">:</span>
+              <div class="timer-box">
+                <span class="timer-val" id="timerMins">45</span>
+                <span class="timer-label">MINS</span>
+              </div>
+              <span class="timer-colon">:</span>
+              <div class="timer-box">
+                <span class="timer-val" id="timerSecs">30</span>
+                <span class="timer-label">SECS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1-Click Copy Coupon Code -->
+          <div class="mb-4">
+            <div class="coupon-box">
+              <span class="coupon-tag"><i class="fa-solid fa-ticket"></i> USE CODE:</span>
+              <span class="coupon-code">PAYDAY30</span>
+              <button class="btn-copy-coupon" id="copyCouponBtn" title="Copy code to clipboard">
+                <i class="fa-regular fa-copy"></i> <span>COPY CODE</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="offer-center">
+            <h3>Special Seasonal Drop</h3>
+            <p>*Terms & Conditions apply • Free Worldwide Shipping</p>
+          </div>
+
+          <a href="#CATALOGUE" class="btn offer-button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- offer section end -->
+
+  <!-- Fashion Metrics / Animated Stats Section (From Aurelia) -->
+  <section class="fashion-metrics-section">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric-card" data-reveal="zoom">
+          <div class="metric-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="metric-number"><span class="counter-val" data-target="50000" data-suffix="+">0</span></div>
+          <div class="metric-label">Happy Fashion Lovers</div>
+        </div>
+        <div class="metric-card" data-reveal="zoom" style="transition-delay: 0.1s;">
+          <div class="metric-icon"><i class="fa-solid fa-shirt"></i></div>
+          <div class="metric-number"><span class="counter-val" data-target="1200" data-suffix="+">0</span></div>
+          <div class="metric-label">Curated New Arrivals</div>
+        </div>
+        <div class="metric-card" data-reveal="zoom" style="transition-delay: 0.2s;">
+          <div class="metric-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="metric-number"><span class="counter-val" data-target="98" data-suffix="%">0</span></div>
+          <div class="metric-label">Sustainable Materials</div>
+        </div>
+        <div class="metric-card" data-reveal="zoom" style="transition-delay: 0.3s;">
+          <div class="metric-icon"><i class="fa-solid fa-star"></i></div>
+          <div class="metric-number"><span class="counter-val" data-target="4.9" data-suffix="/5">0</span></div>
+          <div class="metric-label">Customer Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- product section start -->
+  <section class="product-section" id="FAVOURITE">
+    <div class="container">
+      <div class="product-head" data-reveal>
+        <h2>Young's Favourite</h2>
+      </div>
+      <div class="row product-wrapper g-4">
+        <!-- Item 1: Trending on Instagram -->
+        <div class="col-md-6 col-12">
+          <div class="product-card product-item" data-reveal="zoom">
+            <div class="card-floating-actions">
+              <button class="card-action-btn" data-wishlist="trending" title="Save to Wishlist" aria-label="Save to Wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+            <div class="product-item-img">
+              <a href="javascript:void(0);" data-quick-view="trending">
+                <img src="assets/img/product-item-1.png" alt="Trending on Instagram">
+              </a>
+              <div class="card-quick-view-overlay">
+                <button class="btn-card-quickview" data-quick-view="trending">
+                  <i class="fa-regular fa-eye"></i> Quick View • $64.99
+                </button>
+              </div>
+            </div>
+            <div class="product-item-text">
+              <a href="javascript:void(0);" data-quick-view="trending" style="text-decoration:none;">
+                <h3>Trending on Instagram</h3>
+                <p>Explore Now! • <strong>$64.99</strong></p>
+              </a>
+              <a href="javascript:void(0);" class="category-arrow-link" data-quick-view="trending" title="Explore Trending">
+                <img src="assets/img/category-Arrow 1.svg" alt="product">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: All Under $40 -->
+        <div class="col-md-6 col-12">
+          <div class="product-card product-item" data-reveal="zoom" style="transition-delay: 0.2s;">
+            <div class="card-floating-actions">
+              <button class="card-action-btn" data-wishlist="under40" title="Save to Wishlist" aria-label="Save to Wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+            <div class="product-item-img">
+              <a href="javascript:void(0);" data-quick-view="under40">
+                <img src="assets/img/product-item-2.png" alt="All Under $40">
+              </a>
+              <div class="card-quick-view-overlay">
+                <button class="btn-card-quickview" data-quick-view="under40">
+                  <i class="fa-regular fa-eye"></i> Quick View • $36.99
+                </button>
+              </div>
+            </div>
+            <div class="product-item-text">
+              <a href="javascript:void(0);" data-quick-view="under40" style="text-decoration:none;">
+                <h3>All Under $40</h3>
+                <p>Explore Now! • <strong>$36.99</strong></p>
+              </a>
+              <a href="javascript:void(0);" class="category-arrow-link" data-quick-view="under40" title="Explore Under $40">
+                <img src="assets/img/category-Arrow 1.svg" alt="product">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- product section end -->
+
+  <!-- fashion-voucher start -->
+  <section class="fashion-voucher" id="LIFESTYLE">
+    <div class="container">
+      <div class="row fashion-wrapper d-flex align-items-center">
+        <div class="col-lg-6 col-12 fashion-voucher-text" data-reveal="left">
+          <div class="fashion-voucher-left">
+            <a href="#">
+              <h2>DOWNLOAD APP & GET THE VOUCHER!</h2>
+            </a>
+            <p>Get 30% off your first mobile order using the FASHION Rondovision app today.</p>
+            <div class="fashion-voucher-left-img d-flex">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.apple.com/in/app-store/" title="Download on App Store">
+                <img src="assets/img/vouchers-3.png" alt="App Store">
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store" title="Get it on Google Play">
+                <img src="assets/img/vouchers-2.png" alt="Google Play">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 fashion-voucher-img" data-reveal="right">
+          <a href="#">
+            <img src="assets/img/Vouchers-1.png" alt="Vouchers Preview">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fashion-voucher end -->
+
+  <!-- community-section start (Aurelia Form Engine) -->
+  <section class="community-section">
+    <div class="container">
+      <div class="community-promo d-flex align-items-center justify-content-center">
+        <div class="community-wrapper text-center" data-reveal="zoom">
+          <div class="community-text">
+            <h2>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h2>
+            <p>Type your email down below and be young wild generation</p>
+          </div>
+          <div class="community-search">
+            <!-- Aurelia Real-Time Validated Newsletter -->
+            <form id="newsletterForm" class="community-form" novalidate>
+              <div class="newsletter-input-wrapper">
+                <i class="fa-regular fa-envelope email-field-icon"></i>
+                <input type="email" id="userEmail" placeholder="Enter your email address here..." aria-label="Enter your email address" required autocomplete="email">
+                <div class="email-status">
+                  <span class="status-icon icon-valid"><i class="fa-solid fa-check"></i></span>
+                  <span class="status-icon icon-invalid"><i class="fa-solid fa-exclamation"></i></span>
+                  <span class="status-icon icon-spinner"></span>
+                </div>
+              </div>
+              <button class="btn com-button" type="submit" id="newsletterBtn">
+                <span class="btn-text">SEND</span>
+                <i class="fa-solid fa-arrow-right btn-arrow ms-2"></i>
+              </button>
+            </form>
+            <div id="emailMessage" class="email-message text-center mt-2"></div>
+
+            <!-- Trust Perks Row -->
+            <div class="community-perks d-flex align-items-center justify-content-center flex-wrap gap-4 mt-3">
+              <span class="perk-badge"><i class="fa-solid fa-tag"></i> 30% Off Welcome Voucher</span>
+              <span class="perk-badge"><i class="fa-solid fa-shield-halved"></i> 100% Privacy Protected</span>
+              <span class="perk-badge"><i class="fa-solid fa-bell-slash"></i> Zero Spam Guarantee</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- community-section end -->
+
+  <!-- footer start -->
+  <footer class="footer-main" id="sign">
+    <div class="container">
+      <div class="fashion-foot">
+        <div class="row footer-fashion">
+          <div class="col-lg-4 col-12 footer-left" data-reveal="left">
+            <a href="#" title="FASHION">
+              <h3>FASHION</h3>
+            </a>
+            <p>Complete your style with awesome clothes and iconic collections from us.</p>
+            <div class="footer-left-img d-flex">
+              <div class="foot-img">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/" title="Facebook">
+                  <img src="assets/img/facebook.svg" alt="facebook">
+                </a>
+              </div>
+              <div class="foot-img">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/" title="Instagram">
+                  <img src="assets/img/insta.svg" alt="instagram">
+                </a>
+              </div>
+              <div class="foot-img">
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/" title="Twitter">
+                  <img src="assets/img/twitter.svg" alt="twitter">
+                </a>
+              </div>
+              <div class="foot-img">
+                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/" title="LinkedIn">
+                  <img src="assets/img/in.svg" alt="linkedin">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-12 footer-right d-flex" data-reveal="right">
+            <div class="footbox">
+              <h5 class="foot-title text-align-center">Company</h5>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="footbox">
+              <h5 class="foot-title">Quick Link</h5>
+              <ul>
+                <li><a href="#">Share Location</a></li>
+                <li><a href="#">Orders Tracking</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="footbox">
+              <h5 class="foot-title">Legal</h5>
+              <ul>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- =========================================================================
+       DYNAMIC MODALS & INTERACTIVE DRAWERS
+       ========================================================================= -->
+
+  <!-- 1. Product Quick View Modal (Aurelia Inspired) -->
+  <div class="modal-overlay" id="quickViewModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog quick-view-dialog">
+      <button class="modal-close-btn" id="closeQuickView" aria-label="Close modal">&times;</button>
+      <div class="quick-view-content">
+        <div class="quick-view-media">
+          <img id="qvImage" src="" alt="Product Image">
+          <span class="qv-badge" id="qvBadge">NEW ARRIVAL</span>
+        </div>
+        <div class="quick-view-info">
+          <div class="qv-rating">
+            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+            <span class="review-count" id="qvReviews">(184 Reviews)</span>
+          </div>
+          <h3 id="qvTitle" class="qv-title">Hoodies & Sweatshirt</h3>
+          <p id="qvSubtitle" class="qv-subtitle">Premium Comfort Fit</p>
+          <div class="qv-price-row">
+            <span id="qvPrice" class="qv-price">$49.99</span>
+            <span id="qvOriginalPrice" class="qv-orig-price">$79.99</span>
+            <span class="qv-discount-pill">SPECIAL OFFER</span>
+          </div>
+          <p id="qvDescription" class="qv-desc"></p>
+
+          <div class="qv-option-group">
+            <label class="qv-label">Select Size:</label>
+            <div class="qv-sizes" id="qvSizesContainer">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <div class="qv-option-group">
+            <label class="qv-label">Select Color:</label>
+            <div class="qv-colors" id="qvColorsContainer">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <div class="qv-actions d-flex align-items-center gap-3">
+            <div class="qv-qty-selector d-flex align-items-center">
+              <button class="qty-btn" id="qvQtyMinus" aria-label="Decrease quantity">-</button>
+              <input type="number" id="qvQtyInput" value="1" min="1" max="10" readonly aria-label="Selected quantity">
+              <button class="qty-btn" id="qvQtyPlus" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn btn-add-bag" id="qvAddToBagBtn">
+              <i class="fa-solid fa-bag-shopping"></i> ADD TO BAG
+            </button>
+            <button class="btn btn-qv-wishlist" id="qvWishlistBtn" title="Toggle Wishlist" aria-label="Toggle Wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+
+          <div class="qv-perks">
+            <div class="perk-item"><i class="fa-solid fa-truck-fast"></i> Free express shipping over $75</div>
+            <div class="perk-item"><i class="fa-solid fa-rotate-left"></i> 30-day effortless returns</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Shopping Bag / Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="cart-drawer-header d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-2">
+        <i class="fa-solid fa-bag-shopping cart-header-icon"></i>
+        <h3 class="cart-title">YOUR SHOPPING BAG (<span id="cartCountBadge">0</span>)</h3>
+      </div>
+      <button class="cart-close-btn" id="closeCartBtn" aria-label="Close Cart">&times;</button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartItemsContainer">
+      <!-- Dynamic Cart Items Rendered by JS -->
+    </div>
+
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="cart-promo-row">
+        <div class="input-group">
+          <input type="text" class="form-control" id="cartPromoInput" placeholder="Try code PAYDAY30">
+          <button class="btn btn-apply-promo" id="btnApplyPromo">Apply</button>
+        </div>
+        <div class="promo-feedback" id="promoFeedback"></div>
+      </div>
+
+      <div class="cart-summary">
+        <div class="summary-line d-flex justify-content-between">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">$0.00</span>
+        </div>
+        <div class="summary-line d-flex justify-content-between text-success" id="cartDiscountRow" style="display:none !important;">
+          <span>Discount (<span id="discountPercent">30%</span>)</span>
+          <span id="cartDiscount">-$0.00</span>
+        </div>
+        <div class="summary-line d-flex justify-content-between">
+          <span>Estimated Shipping</span>
+          <span class="text-success fw-bold">FREE</span>
+        </div>
+        <hr class="my-2">
+        <div class="summary-line summary-total d-flex justify-content-between">
+          <span>Total</span>
+          <span id="cartTotal" class="total-price">$0.00</span>
+        </div>
+      </div>
+
+      <button class="btn btn-checkout w-100" id="btnCheckout">
+        PROCEED TO SECURE CHECKOUT <i class="fa-solid fa-arrow-right ms-2"></i>
+      </button>
+      <div class="cart-guarantee text-center mt-2">
+        <small class="text-muted"><i class="fa-solid fa-shield-halved"></i> 256-Bit SSL Encrypted Checkout</small>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 3. Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top" title="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- 4. Dynamic Modern Toast Notification (Aurelia Inspired) -->
+  <div id="fashionToast" class="toast-notification">
+    <span class="toast-icon">✨</span>
+    <span class="toast-text"></span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
